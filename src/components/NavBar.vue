@@ -26,7 +26,7 @@
   </nav>
 </template>
 <script setup>
-  import resume from "../assets/doc/Dorsa_Nouri.pdf";
+  import resume from "../assets/doc/Dorsa_Nouri24.pdf";
   const sendMail = () => {
     window.open("mailto:dorsa.nouri23@gmail.com");
   };

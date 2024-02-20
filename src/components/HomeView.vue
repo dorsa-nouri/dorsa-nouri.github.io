@@ -2,7 +2,6 @@
   import { ref, computed } from "vue";
   import first from "../assets/doc/c1.jpg";
   import sec from "../assets/doc/c2.jpg";
-  // import monalisa from "../assets/img/monalisa.svg"
 
   const mySkills = ref([
     "JavaScript(Es6+)",
@@ -22,6 +21,7 @@
   const firstHalf = computed(() =>
     mySkills.value.slice(0, Math.ceil(mySkills.value.length / 2))
   );
+  
   const secondHalf = computed(() =>
     mySkills.value.slice(Math.ceil(mySkills.value.length / 2))
   );
@@ -213,7 +213,7 @@
           <span></span>
           <span></span>
         </div>
-        <div class="relative h-80 img"  >
+        <div class=" h-80 img1"  >
           <template v-for="(image, index) in images" :key="index">
             <div
               v-show="currentIndex == image.id"
@@ -223,6 +223,7 @@
                 :src="image.img"
                 alt="certificate"
                 class="rounded-xl w-full"
+              
               />
               <a
                 class="mx-auto mt-3 items-center justify-center flex flex-row w-full"
@@ -265,7 +266,7 @@
       </section>
 
       <div class="items-center mx-auto w-full">
-        <div class="items-center mx-auto">
+        <!-- <div class="items-center mx-auto">
           <iframe
             class="rounded-lg mt-5 mx-auto"
             src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=Asia%2FTehran&src=ZG9yc2Eubm91cmkyM0BnbWFpbC5jb20&color=%237986CB"
@@ -275,7 +276,7 @@
             frameborder="0"
             scrolling="no"
           ></iframe>
-        </div>
+        </div> -->
 
         <div class="items-center mx-auto w-full mt-5">
           <ul class="flex flex-row items-center justify-center mx-auto w-full">

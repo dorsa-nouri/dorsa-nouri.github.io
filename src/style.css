@@ -31,6 +31,8 @@ body {
   margin: 0;
   box-sizing: border-box;
   height: 100vh;
+  scroll-behavior: smooth;
+
 }
 #app {
   position: relative;
@@ -39,6 +41,9 @@ body {
   margin: 0 auto;
   font-weight: normal;
   padding: 3vw;
+  scroll-behavior: smooth;
+
+
 }
 .logo {
   position: fixed;
@@ -236,8 +241,8 @@ nav {
   }
 }
 
-.img{
-  width: 25vw;
+.img1{
+  width: 33vw;
 }
 
 @media only screen and (max-width: 600px) {
