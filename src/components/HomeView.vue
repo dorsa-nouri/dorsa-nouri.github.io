@@ -61,7 +61,7 @@
 </script>
 
 <template>
-  <img class="logo" src="../assets/img/favicon.ico" width="30" height="30" />
+  <img class="logo rounded-full" src="../assets/img/my-pic.png" width="100" height="100"  />
   <div class="mainContent">
     <h1 class="heading">Dorsa Nouri</h1>
     <h2 class="subHeading">I create web-based applications and products.</h2>
