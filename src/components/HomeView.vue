@@ -61,7 +61,7 @@
 </script>
 
 <template>
-  <img class="logo rounded-full" src="../assets/img/my-pic.png" width="100" height="100"  />
+  <img  class="logo rounded-full hidden sm:block hidden-div" src="../assets/img/my-pic.png" width="100" height="100"  />
   <div class="mainContent">
     <h1 class="heading">Dorsa Nouri</h1>
     <h2 class="subHeading">I create web-based applications and products.</h2>
@@ -152,19 +152,47 @@
 
     <div class="content">
       <section>
-        As a front-end developer, I have built and maintained several websites
-        that are showcased on my LinkedIn profile. These websites demonstrate my
-        expertise in creating visually appealing and user-friendly interfaces
-        using web languages such as HTML, CSS, and JavaScript. I ensure that my
-        LinkedIn profile is always updated with the latest projects I have
-        worked on, highlighting my commitment to staying current in the field of
-        front-end development. My portfolio includes websites that are
-        well-crafted, functional, and optimized for various devices, reflecting
-        my dedication to enhancing user experience and engagement. Additionally,
-        I utilize tools and resources to create efficient and effective web
-        solutions, further exemplifying my skills as a front-end developer
+        As a front-end developer, I have built and maintained several websites that are showcased on my LinkedIn profile. These websites demonstrate my expertise in creating visually appealing and user-friendly interfaces using web languages such as HTML, CSS, and JavaScript. I ensure that my LinkedIn profile is always updated with the latest projects I have worked on, highlighting my commitment to staying current in the field of front-end development. My portfolio includes websites that are well-crafted, functional, and optimized for various devices, reflecting my dedication to enhancing user experience and engagement. Additionally, I utilize tools and resources to create efficient and effective web solutions, further exemplifying my skills as a front-end developer 
       </section>
     </div>
+
+    <div class="content">
+      <h2>Solar panel</h2>
+      <section>
+       - Built a solar-panel calculator to assess the suitability of a location for solar-panels installation.
+      </section>
+      <a href="https://ksg.hashtagbime.com" target="_blank">Demo</a>
+    </div>
+
+    <div class="content">
+      <h2>Accident insurance panel</h2>
+        <section>
+        - Rebuilt a groundbreaking microservice system for Automatize accident insurance panel
+        and reduce paperwork by 90%.
+      </section> 
+      <a href="https://reboot.yara724.com" target="_blank">Demo</a>
+   
+    </div>
+
+    <div class="content">
+      <h2>Interducing Web game (web3)</h2>
+        <section>
+        - Built a single-page web app (SPA) that interacts with the blockchain, driven by a passion for
+          revolutionizing the way we engage with the world.
+      </section> 
+      <a href="http://www.cityapex.io" target="_blank">Demo</a>
+   
+    </div>
+
+    <div class="content">
+      <h2>Simple website for client</h2>
+        <section>
+        - Design and Built a Website for the Employer.
+      </section> 
+      <a href="http://www.cryptoownersgroup.com/" target="_blank">Demo</a>
+   
+    </div>
+   
 
     <div class="text-center items-center justify-center flex flex-row">
       <img
@@ -185,21 +213,11 @@
 
     <div class="content">
       <section>
-        As a front-end developer, I have built and maintained several websites
-        that are showcased on my LinkedIn profile. These websites demonstrate my
-        expertise in creating visually appealing and user-friendly interfaces
-        using web languages such as HTML, CSS, and JavaScript. I ensure that my
-        LinkedIn profile is always updated with the latest projects I have
-        worked on, highlighting my commitment to staying current in the field of
-        front-end development. My portfolio includes websites that are
-        well-crafted, functional, and optimized for various devices, reflecting
-        my dedication to enhancing user experience and engagement. Additionally,
-        I utilize tools and resources to create efficient and effective web
-        solutions, further exemplifying my skills as a front-end developer
+        I have earned several certificates, demonstrating my commitment to continuous learning and knowledge enhancement. As I regularly acquire new certifications, I may not be able to update this site promptly. For the most current information on my qualifications, please visit my LinkedIn profile, where I consistently maintain up-to-date records.
       </section>
     </div>
 
-    <div class="relative items-center h-full md:w-2/3  justify-center">
+    <div class="relative items-center h-full md:w-2/3 sm:w-full sm:text-center justify-center mx-auto">
       <div
         style="width: 65vw"
         class="flex flex-row mx-auto rounded-xl items-center justify-around bg-transparent p-2 sm:p-4"
