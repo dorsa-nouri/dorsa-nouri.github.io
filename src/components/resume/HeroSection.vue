@@ -54,11 +54,6 @@ defineProps<{
           :label="personal.email"
         />
         <IconLink
-          :href="`tel:${personal.phone.replace(/\s/g, '')}`"
-          type="phone"
-          :label="personal.phone"
-        />
-        <IconLink
           :href="personal.github.url"
           type="github"
           :label="personal.github.username"
