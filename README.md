@@ -1,7 +1,49 @@
-# Vue 3 + Vite
+# Dorsa Nouri — Resume Website
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A single-page static portfolio/resume site built with Vue 3, Vite, and Tailwind CSS. All content is driven by `resume_data.json`.
 
-## Recommended IDE Setup
+## Live Demo
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+After deploying to GitHub Pages, the site will be available at:
+
+`https://<username>.github.io/dorsa-resume/`
+
+## Local Setup
+
+```bash
+npm install
+npm run dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) in your browser.
+
+## Updating Resume Content
+
+1. Edit `resume_data.json` in the project root.
+2. Preview locally with `npm run dev` — Vite hot-reloads when the file changes.
+3. Commit and push to `main` — GitHub Actions will rebuild and deploy automatically.
+
+## Deploy Notes
+
+- **GitHub Pages:** Enable **Settings → Pages → Build and deployment → Source: GitHub Actions**.
+- **Base path:** `vite.config.ts` sets `base: '/dorsa-resume/'` for project pages. Change to `'/'` if using a user/org site (`username.github.io` repo).
+
+## Production Build
+
+```bash
+npm run build
+npm run preview
+```
+
+## Tech Stack
+
+- Vue 3 (Composition API)
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide Vue (icons)
+- GitHub Actions → GitHub Pages
+
+## License
+
+Private / personal portfolio — all rights reserved.
